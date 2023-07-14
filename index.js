@@ -8,7 +8,7 @@ const AllGames = {
 };
 
 const possibleValues = [0, 1, 2];
-var gameNum=0;
+var gameStats=0;
 
 // input: { Monday, Tuesday, Wednesday, etc. }
 // output: { Restaurant1, Restaurant2 }
@@ -26,6 +26,14 @@ for (let gameType in AllGames) {
 //-----
 const net = new brain.NeuralNetwork({ hiddenLayers: [3] });
 const stats = net.train(trainingData);
+
+fetchstats = JSON.stringify(stats);
+fetchJSON = JSON.parse(fetchstats);
+  if(Math.round(fetchJSON.error)==0)
+document.getElementById('gameStats').innerHTML= "AI trainingData success, #iterations: "+ fetchJSON.iterations;
+else {
+  document.getElementById('gameStats').innerHTML= "AI trainingData failed";
+}
 
 //-----
 
@@ -51,10 +59,26 @@ function generateUniqueValues() {
   });
 }
 
-function playGame(){
-      //alert(1);
-      document.getElementById('gameNum').innerHTML = "Game-number: "+ ++gameNum;
+//GRACEFUL FADES
+function fadeDIV(obj) {
+  let element = document.getElementById(obj);
+  element.style.opacity = 100;
+  }
 
+
+function playGame(){
+      // change the button label
+      // FADE IN GAME STATS
+      fadeDIV("result");
+      fadeDIV("input");
+
+
+      var div = document.getElementById("input");
+
+      //document.getElementById('result')
+
+      document.getElementById("playBtn").innerHTML = "Keep unleashing 🤞";
+      document.getElementById('gameStats').innerHTML = "Game number: "+ ++gameStats;
       const [value1, value2] = generateUniqueValues();
       console.log(value1+"-"+value2);
 
@@ -63,10 +87,17 @@ function playGame(){
       //STEP3- PLAY THE GAME, and fetch the result
       const gametype = value1+"-"+value2;
       const move = value1+"-"+value2;  // Example move
-      const jsonObject = { [move]: 1 };
+      var emoji1, emoji2 = new String();
+      if(value1=="Rock") emoji1 = "🪨";
+      if(value1=="Paper") emoji1 = "📄";
+      if(value1=="Scissors") emoji1 = "✂️";
+      if(value2=="Rock") emoji2 = "🪨";
+      if(value2=="Paper") emoji2 = "📄";
+      if(value2=="Scissors") emoji2 = "✂️";
 
+      const jsonObject = { [move]: 1 };
       net.run(jsonObject);
-      document.getElementById('input').innerHTML = "Random game generated: "+gametype;
+      document.getElementById('input').innerHTML = "Random selections given to AI: "+ emoji1 +" vs. "+emoji2;
       const res = net.run(jsonObject);
 
 
@@ -77,9 +108,9 @@ function playGame(){
       const rockScore = Math.round(resJSON.Rock);
       const paperScore = Math.round(resJSON.Paper);
       const scissorsScore = Math.round(resJSON.Scissors);
-      if(rockScore==1)winner="Rock";
-      if(paperScore==1)winner="Paper";
-      if(scissorsScore==1)winner="Scissors";
+      if(rockScore==1)winner="🪨";
+      if(paperScore==1)winner="📄";
+      if(scissorsScore==1)winner="✂️";
       document.getElementById('result').innerHTML = "And the winner is: "+winner;
 
       }
@@ -88,6 +119,7 @@ function playGame(){
 //first time flow
 const [value1, value2] = generateUniqueValues();
 console.log(value1+"-"+value2);
+
 
 //-----
 
