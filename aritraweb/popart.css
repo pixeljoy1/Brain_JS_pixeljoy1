@@ -1,0 +1,322 @@
+.pop-art-by-aritra {
+  position: relative;
+  line-height: 74px;
+}
+.student-visual-artist4 {
+  position: relative;
+  font-size: var(--font-size-11xl);
+  line-height: 30px;
+  text-align: left;
+}
+.header1-4 {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 var(--padding-xl);
+  align-items: center;
+  justify-content: flex-start;
+}
+.vector-icon5 {
+  position: relative;
+  width: 16.71px;
+  height: 16px;
+  cursor: pointer;
+}
+.portraiture5 {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-sf-pro-display);
+  color: var(--color-darkslategray-100);
+  text-align: left;
+  display: inline-block;
+}
+.art5,
+.portraiture5 {
+  position: relative;
+  cursor: pointer;
+}
+.profile-picture-icon6 {
+  border-radius: var(--br-19xl);
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.navigation-menu5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-11xl);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkslategray-100);
+}
+.capturing-the-zeitgeist,
+.step-into-the {
+  align-self: stretch;
+  position: relative;
+  line-height: 46px;
+}
+.capturing-the-zeitgeist {
+  font-size: var(--font-size-5xl);
+  line-height: 32px;
+}
+.search-container7,
+.title4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.title4 {
+  align-self: stretch;
+  padding: var(--padding-3xs) 0;
+}
+.search-container7 {
+  width: 100%;
+  padding: var(--padding-11xl) var(--padding-121xl);
+  box-sizing: border-box;
+}
+.port2-3-icon2,
+.port2-8-icon2 {
+  position: relative;
+  width: 1067px;
+  height: 1200px;
+  object-fit: cover;
+}
+.col-15,
+.portform-13 {
+  display: flex;
+  justify-content: center;
+}
+.col-15 {
+  cursor: pointer;
+  border: 0;
+  padding: 0 var(--padding-base);
+  background-color: transparent;
+  flex: 1;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  gap: var(--gap-31xl);
+  width: 25%;
+}
+.portform-13 {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  flex-direction: row;
+  padding: var(--padding-31xl) var(--padding-xl);
+  align-items: flex-start;
+}
+.cardsection-3,
+.search-section7 {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.cardsection-3 {
+  background-color: var(--color-whitesmoke);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.search-section7 {
+  gap: var(--gap-3xs);
+}
+.back-section4,
+.search-section6,
+.search-section7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.search-section6 {
+  align-self: stretch;
+  justify-content: flex-start;
+  font-size: var(--font-size-17xl);
+}
+.back-section4 {
+  width: 530px;
+  height: 165px;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-19xl);
+  color: var(--color-black);
+}
+.aritra-mitra6 {
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+  height: 39.5px;
+  flex-shrink: 0;
+}
+.facebook-icon5 {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+.facebook-parent2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-xl);
+}
+.yelahanka-bengaluru-karnatak5 {
+  margin: 0;
+}
+.aritramitra49gmailcom17 {
+  text-decoration: underline;
+}
+.aritramitra49gmailcom16 {
+  color: inherit;
+}
+.yelahanka-bengaluru-karnatak-container5 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 32px;
+  color: inherit;
+  display: inline-block;
+  height: 106px;
+  flex-shrink: 0;
+}
+.footer5 {
+  align-self: stretch;
+  height: 226px;
+  padding: 0 var(--padding-65xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-sf-pro-display);
+}
+.footer-section5,
+.footer5,
+.page-4,
+.popart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.footer-section5 {
+  width: 705px;
+}
+.page-4,
+.popart {
+  padding: var(--padding-3xs) 0;
+}
+.page-4 {
+  align-self: stretch;
+  gap: var(--gap-3xs);
+}
+.popart {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-39xl);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-sf-pro-display);
+}
+.popart:hover {
+  background: linear-gradient(#fff, #fff), #87550a;
+}
+@media screen and (max-width: 1200px) {
+  .header1-4,
+  .navigation-menu5 {
+    gap: var(--gap-11xl);
+    align-items: center;
+    justify-content: center;
+  }
+  .navigation-menu5 {
+    padding-bottom: 0;
+    box-sizing: border-box;
+  }
+  .footer5 {
+    padding: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 960px) {
+  .header1-4 {
+    flex-direction: column;
+    gap: var(--gap-xl);
+  }
+  .header1-4,
+  .navigation-menu5 {
+    display: flex;
+  }
+  .search-container7 {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .port2-3-icon2,
+  .port2-8-icon2 {
+    width: 95%;
+    height: auto;
+  }
+  .col-15 {
+    padding: var(--padding-base);
+    box-sizing: border-box;
+    width: 100%;
+    flex: unset;
+    align-self: stretch;
+  }
+  .portform-13 {
+    flex-direction: column;
+  }
+  .cardsection-3,
+  .portform-13 {
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--gap-0);
+  }
+  .footer5 {
+    flex-direction: column;
+    padding: var(--padding-21xl) var(--padding-5xl) var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 420px) {
+  .navigation-menu5 {
+    flex-direction: row;
+    gap: var(--gap-xs);
+  }
+  .step-into-the {
+    font-size: var(--font-size-23xl);
+    line-height: 48px;
+  }
+  .port2-3-icon2 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
+  }
+  .col-15 {
+    width: 100%;
+  }
+  .portform-13 {
+    margin-top: 20px;
+  }
+  .aritra-mitra6 {
+    font-size: var(--font-size-5xl);
+    line-height: 48px;
+  }
+  .footer5 {
+    padding: var(--padding-11xl) var(--padding-5xl);
+    box-sizing: border-box;
+  }
+  .popart {
+    width: 100%;
+  }
+  .popart:hover {
+    background-color: var(--color-orange);
+  }
+}
