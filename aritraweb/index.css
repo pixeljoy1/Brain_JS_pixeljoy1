@@ -22,6 +22,7 @@
   position: relative;
   width: 16.71px;
   height: 16px;
+  display: none;
   cursor: pointer;
 }
 .portraiture {
@@ -92,6 +93,7 @@
   width: 293.42px;
   height: 330px;
   object-fit: cover;
+  cursor: pointer;
 }
 .col-1 {
   cursor: pointer;
@@ -105,15 +107,17 @@
   align-items: center;
   justify-content: center;
 }
-.port6-1-icon,
+.port2-2-icon,
 .port8-1-icon {
   position: relative;
+  width: 233.06px;
+  height: 262.11px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.port8-1-icon {
   width: 251.71px;
   height: 330px;
-  object-fit: cover;
-}
-.port6-1-icon {
-  width: 239.25px;
 }
 .portform-1 {
   align-self: stretch;
@@ -126,17 +130,31 @@
   justify-content: center;
   gap: var(--gap-9xs);
 }
-.port1-1-icon,
-.port5-1-icon,
-.port7-1-icon {
+.port2-2-icon1 {
   position: relative;
-  width: 233.06px;
-  height: 330px;
+  width: 233px;
+  height: 262.04px;
   object-fit: cover;
+  cursor: pointer;
 }
 .port1-1-icon,
-.port5-1-icon {
+.port5-1-icon,
+.port6-1-icon,
+.port7-1-icon {
+  position: relative;
   width: 216.7px;
+  height: 330px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.port5-1-icon,
+.port6-1-icon,
+.port7-1-icon {
+  width: 233.06px;
+}
+.port5-1-icon,
+.port6-1-icon {
+  width: 239.25px;
 }
 .port5-1-icon {
   width: 212.57px;
@@ -278,11 +296,19 @@
     box-sizing: border-box;
     width: 50%;
   }
+  .port2-2-icon {
+    width: 95%;
+    height: auto;
+  }
   .portform-1 {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     gap: var(--gap-0);
+  }
+  .port2-2-icon1 {
+    width: 95%;
+    height: auto;
   }
   .search-container1 {
     padding-left: var(--padding-11xl);

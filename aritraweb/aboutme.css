@@ -2,13 +2,13 @@
   position: relative;
   line-height: 74px;
 }
-.student-visual-artist6 {
+.student-visual-artist3 {
   position: relative;
   font-size: var(--font-size-11xl);
   line-height: 30px;
   text-align: left;
 }
-.header1-6 {
+.header1-3 {
   width: 332px;
   display: flex;
   flex-direction: row;
@@ -17,14 +17,15 @@
   box-sizing: border-box;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
-.vector-icon7 {
+.vector-icon4 {
   position: relative;
   width: 16.71px;
   height: 16px;
   cursor: pointer;
 }
-.portraiture8 {
+.portraiture4 {
   border: 0;
   padding: 0;
   background-color: transparent;
@@ -34,35 +35,34 @@
   text-align: left;
   display: inline-block;
 }
-.art8,
-.portraiture8 {
+.art4,
+.portraiture4 {
   position: relative;
   cursor: pointer;
 }
-.profile-picture-icon7 {
+.profile-picture-icon4 {
   border-radius: var(--br-19xl);
   width: 36px;
   height: 36px;
   object-fit: cover;
   cursor: pointer;
 }
-.navigation-menu7 {
+.navigation-menu4 {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: var(--gap-11xl);
-  text-align: left;
   font-size: var(--font-size-sm);
   color: var(--color-darkslategray-100);
 }
-.profile-picture-icon8 {
+.profile-picture-icon5 {
   border-radius: 98px;
   width: 200px;
   height: 200px;
   object-fit: cover;
 }
-.welcome-to-my-container {
+.welcome-to-my1 {
   align-self: stretch;
   position: relative;
   line-height: 46px;
@@ -75,83 +75,68 @@
   position: relative;
   font-size: var(--font-size-5xl);
   line-height: 32px;
-  text-align: left;
 }
-.title6 {
+.title3 {
   align-self: stretch;
   display: flex;
+  flex-direction: column;
   padding: var(--padding-3xs) 0;
   align-items: center;
+  justify-content: flex-start;
   gap: var(--gap-31xl);
 }
-.search-container12,
-.search-section10,
-.title6 {
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.search-container12 {
+.search-container6 {
   width: 100%;
-  display: flex;
   padding: var(--padding-11xl) var(--padding-121xl);
   box-sizing: border-box;
+  justify-content: flex-start;
+}
+.back-section3,
+.search-container6,
+.search-section5 {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
-.search-section10 {
+.search-section5 {
   align-self: stretch;
+  justify-content: flex-start;
   font-size: var(--font-size-17xl);
 }
-.back-section5,
-.row1-5,
-.search-section10 {
-  display: flex;
-  align-items: center;
-}
-.row1-5 {
-  width: 950px;
-  height: 200px;
-  overflow: hidden;
-  flex-shrink: 0;
-  flex-direction: row;
-  justify-content: center;
-  max-width: 950px;
-}
-.back-section5 {
+.back-section3 {
   width: 530px;
   height: 165px;
-  flex-direction: column;
-  justify-content: flex-start;
-  text-align: left;
+  justify-content: center;
   font-size: var(--font-size-19xl);
   color: var(--color-black);
 }
-.aritra-mitra8 {
+.aritra-mitra5 {
   align-self: stretch;
   position: relative;
   display: inline-block;
   height: 39.5px;
   flex-shrink: 0;
 }
-.facebook-icon7 {
+.facebook-icon4 {
   position: relative;
   width: 30px;
   height: 30px;
   object-fit: cover;
 }
-.facebook-parent4 {
+.facebook-parent1 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
   gap: var(--gap-xl);
 }
-.aritramitra49gmailcom23 {
+.aritramitra49gmailcom14 {
   text-decoration: underline;
 }
-.aritramitra49gmailcom22 {
+.aritramitra49gmailcom13 {
   color: inherit;
 }
-.yelahanka-bengaluru-karnatak-container7 {
+.yelahanka-bengaluru-karnatak-container4 {
   align-self: stretch;
   position: relative;
   font-size: var(--font-size-sm);
@@ -161,7 +146,7 @@
   height: 106px;
   flex-shrink: 0;
 }
-.footer7 {
+.footer4 {
   align-self: stretch;
   height: 226px;
   padding: 0 var(--padding-65xl);
@@ -173,22 +158,22 @@
   font-family: var(--font-sf-pro-display);
 }
 .aboutme,
-.footer-section7,
-.footer7,
-.page-6 {
+.footer-section4,
+.footer4,
+.page-3 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
 }
-.footer-section7 {
+.footer-section4 {
   width: 705px;
 }
 .aboutme,
-.page-6 {
+.page-3 {
   padding: var(--padding-3xs) 0;
 }
-.page-6 {
+.page-3 {
   align-self: stretch;
   gap: var(--gap-3xs);
 }
@@ -197,7 +182,7 @@
   background-color: var(--color-white);
   width: 100%;
   box-sizing: border-box;
-  text-align: center;
+  text-align: left;
   font-size: var(--font-size-39xl);
   color: var(--color-darkslategray-200);
   font-family: var(--font-sf-pro-display);
@@ -206,55 +191,55 @@
   background: linear-gradient(#fff, #fff), #87550a;
 }
 @media screen and (max-width: 1200px) {
-  .header1-6,
-  .navigation-menu7 {
+  .header1-3,
+  .navigation-menu4 {
     gap: var(--gap-11xl);
     align-items: center;
     justify-content: center;
   }
-  .navigation-menu7 {
+  .navigation-menu4 {
     padding-bottom: 0;
     box-sizing: border-box;
   }
-  .footer7 {
+  .footer4 {
     padding: var(--padding-21xl);
     box-sizing: border-box;
   }
 }
 @media screen and (max-width: 960px) {
-  .header1-6 {
+  .header1-3 {
     flex-direction: column;
     gap: var(--gap-xl);
   }
-  .header1-6,
-  .navigation-menu7 {
+  .header1-3,
+  .navigation-menu4 {
     display: flex;
   }
-  .search-container12 {
+  .search-container6 {
     padding-left: var(--padding-11xl);
     padding-right: var(--padding-11xl);
     box-sizing: border-box;
   }
-  .footer7 {
+  .footer4 {
     flex-direction: column;
     padding: var(--padding-21xl) var(--padding-5xl) var(--padding-11xl);
     box-sizing: border-box;
   }
 }
 @media screen and (max-width: 420px) {
-  .navigation-menu7 {
+  .navigation-menu4 {
     flex-direction: row;
     gap: var(--gap-xs);
   }
-  .aritra-mitra8,
-  .welcome-to-my-container {
+  .aritra-mitra5,
+  .welcome-to-my1 {
     font-size: var(--font-size-23xl);
     line-height: 48px;
   }
-  .aritra-mitra8 {
+  .aritra-mitra5 {
     font-size: var(--font-size-5xl);
   }
-  .footer7 {
+  .footer4 {
     padding: var(--padding-11xl) var(--padding-5xl);
     box-sizing: border-box;
   }

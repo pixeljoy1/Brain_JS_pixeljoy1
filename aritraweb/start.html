@@ -59,6 +59,15 @@
                   class="port2-1-icon"
                   alt=""
                   src="./public/port2--1@2x.png"
+                  id="port21Image"
+                />
+              </button>
+              <button class="col-1">
+                <img
+                  class="port2-2-icon"
+                  alt=""
+                  src="./public/port2--2@2x.png"
+                  id="port22Image"
                 />
               </button>
               <button class="col-1">
@@ -66,13 +75,33 @@
                   class="port8-1-icon"
                   alt=""
                   src="./public/port8--1@2x.png"
+                  id="port81Image"
+                />
+              </button>
+            </div>
+            <div class="portform-1">
+              <button class="col-1">
+                <img
+                  class="port2-2-icon1"
+                  alt=""
+                  src="./public/port2--21@2x.png"
+                  id="port22Image1"
                 />
               </button>
               <button class="col-1">
                 <img
-                  class="port6-1-icon"
+                  class="port2-2-icon1"
                   alt=""
-                  src="./public/port6--1@2x.png"
+                  src="./public/port2--22@2x.png"
+                  id="port22Image2"
+                />
+              </button>
+              <button class="col-1">
+                <img
+                  class="port1-1-icon"
+                  alt=""
+                  src="./public/port1--1@2x.png"
+                  id="port11Image"
                 />
               </button>
             </div>
@@ -82,13 +111,15 @@
                   class="port7-1-icon"
                   alt=""
                   src="./public/port7--1@2x.png"
+                  id="port71Image"
                 />
               </button>
               <button class="col-1">
                 <img
-                  class="port1-1-icon"
+                  class="port6-1-icon"
                   alt=""
-                  src="./public/port1--1@2x.png"
+                  src="./public/port6--1@2x.png"
+                  id="port61Image"
                 />
               </button>
               <button class="col-1">
@@ -96,6 +127,7 @@
                   class="port5-1-icon"
                   alt=""
                   src="./public/port5--1@2x.png"
+                  id="port51Image"
                 />
               </button>
             </div>
@@ -120,7 +152,7 @@
               <img
                 class="facebook-icon"
                 alt=""
-                src="./public/instagram1@2x.png"
+                src="./public/instagram@2x.png"
               />
 
               <img
@@ -202,6 +234,69 @@
       if (profilePictureIcon) {
         profilePictureIcon.addEventListener("click", function (e) {
           window.location.href = "./aboutme.html";
+        });
+      }
+      
+      var port21Image = document.getElementById("port21Image");
+      if (port21Image) {
+        port21Image.addEventListener("click", function (e) {
+          window.location.href = "./portraiture.html";
+        });
+      }
+      
+      var port22Image = document.getElementById("port22Image");
+      if (port22Image) {
+        port22Image.addEventListener("click", function (e) {
+          window.location.href = "./popart.html";
+        });
+      }
+      
+      var port81Image = document.getElementById("port81Image");
+      if (port81Image) {
+        port81Image.addEventListener("click", function (e) {
+          window.location.href = "./portraiture.html";
+        });
+      }
+      
+      var port22Image1 = document.getElementById("port22Image1");
+      if (port22Image1) {
+        port22Image1.addEventListener("click", function (e) {
+          window.location.href = "./art.html";
+        });
+      }
+      
+      var port22Image2 = document.getElementById("port22Image2");
+      if (port22Image2) {
+        port22Image2.addEventListener("click", function (e) {
+          window.location.href = "./photography.html";
+        });
+      }
+      
+      var port11Image = document.getElementById("port11Image");
+      if (port11Image) {
+        port11Image.addEventListener("click", function (e) {
+          window.location.href = "./portraiture.html";
+        });
+      }
+      
+      var port71Image = document.getElementById("port71Image");
+      if (port71Image) {
+        port71Image.addEventListener("click", function (e) {
+          window.location.href = "./portraiture.html";
+        });
+      }
+      
+      var port61Image = document.getElementById("port61Image");
+      if (port61Image) {
+        port61Image.addEventListener("click", function (e) {
+          window.location.href = "./portraiture.html";
+        });
+      }
+      
+      var port51Image = document.getElementById("port51Image");
+      if (port51Image) {
+        port51Image.addEventListener("click", function (e) {
+          window.location.href = "./portraiture.html";
         });
       }
       </script>
