@@ -1,11 +1,11 @@
-.joydeep-mitra {
+.joydeep-mitra1 {
   position: relative;
 }
-.uxixdmentorthinker {
+.uxixdmentorthinker1 {
   position: relative;
   font-size: var(--font-size-base);
 }
-.hero-banner- {
+.hero-banner-1 {
   background-color: var(--color-white);
   overflow: hidden;
   display: flex;
@@ -18,13 +18,14 @@
   font-size: var(--font-size-39xl);
   color: var(--color-black);
 }
-.vector-icon {
+.vector-icon1 {
   position: relative;
   width: 16.71px;
   height: 16px;
+  display: none;
 }
-.photography,
-.uxd {
+.photography1,
+.uxd1 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -36,30 +37,30 @@
   text-align: center;
   display: inline-block;
 }
-.photography {
+.photography1 {
   flex: 1;
 }
-.profile-picture-icon {
+.profile-picture-icon1 {
   border-radius: var(--br-19xl);
   width: 36px;
   height: 36px;
   object-fit: cover;
 }
-.navigation-menu {
+.navigation-menu1 {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: var(--gap-11xl);
+  gap: 50px;
   min-width: 400px;
   font-size: var(--font-size-sm);
   color: var(--color-darkslategray-100);
 }
-.unveiling-the-vision {
+.unveiling-the-vision2 {
   align-self: stretch;
   position: relative;
 }
-.title {
+.title2 {
   align-self: stretch;
   display: flex;
   flex-direction: column;
@@ -67,12 +68,12 @@
   align-items: center;
   justify-content: flex-start;
 }
-.discover-the-artistry {
+.discover-the-artistry2 {
   align-self: stretch;
   position: relative;
   font-size: var(--font-size-lg);
 }
-.ipad-pro-2020 {
+.ipad-pro-20202 {
   position: absolute;
   margin: 0 !important;
   height: calc(100% + 0.15px);
@@ -87,7 +88,7 @@
   object-fit: cover;
   z-index: 0;
 }
-.hero1 {
+.hero12 {
   width: 563px;
   height: 422px;
   overflow: hidden;
@@ -98,12 +99,12 @@
   justify-content: flex-start;
   position: relative;
 }
-.col-1,
-.img-holder- {
+.col-12,
+.img-holder-2 {
   height: 433px;
   display: flex;
 }
-.col-1 {
+.col-12 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -113,7 +114,7 @@
   align-items: center;
   justify-content: flex-start;
 }
-.img-holder- {
+.img-holder-2 {
   align-self: stretch;
   border-radius: var(--br-3xs);
   background-color: var(--color-white);
@@ -122,13 +123,13 @@
   justify-content: center;
   min-width: 400px;
 }
-.section-card,
-.section-large- {
+.section-card2,
+.section-large-1 {
   overflow: hidden;
   display: flex;
   box-sizing: border-box;
 }
-.section-card {
+.section-card2 {
   flex: 1;
   flex-direction: column;
   padding: 0 var(--padding-xl);
@@ -138,7 +139,7 @@
   min-width: 335px;
   max-width: 1100px;
 }
-.section-large- {
+.section-large-1 {
   align-self: stretch;
   flex-direction: row;
   flex-wrap: wrap;
@@ -169,36 +170,36 @@
   object-fit: cover;
   z-index: 0;
 }
-.joydeep-mitra-2023-24 {
+.joydeep-mitra-2023-241 {
   align-self: stretch;
   position: relative;
   display: inline-block;
   height: 39.5px;
   flex-shrink: 0;
 }
-.facebook-icon {
+.facebook-icon1 {
   position: relative;
   width: 30px;
   height: 30px;
   object-fit: cover;
 }
-.facebook-parent {
+.facebook-group {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
   gap: var(--gap-xl);
 }
-.yelahanka-bengaluru-karnatak {
+.yelahanka-bengaluru-karnatak1 {
   margin: 0;
 }
-.pixeljoygmailcom2 {
+.pixeljoygmailcom5 {
   text-decoration: underline;
 }
-.pixeljoygmailcom1 {
+.pixeljoygmailcom4 {
   color: inherit;
 }
-.yelahanka-bengaluru-karnatak-container {
+.yelahanka-bengaluru-karnatak-container1 {
   align-self: stretch;
   position: relative;
   font-size: var(--font-size-sm);
@@ -208,7 +209,7 @@
   height: 106px;
   flex-shrink: 0;
 }
-.footer {
+.footer1 {
   flex: 1;
   height: 226px;
   display: flex;
@@ -223,7 +224,7 @@
   color: var(--color-darkslategray-200);
   font-family: var(--font-sf-pro-display);
 }
-.footer-section {
+.footer-section1 {
   width: 400px;
   display: flex;
   flex-direction: row;
@@ -258,60 +259,60 @@
   background: linear-gradient(#fff, #fff), #87550a;
 }
 @media screen and (max-width: 1200px) {
-  .navigation-menu {
+  .navigation-menu1 {
     gap: var(--gap-11xl);
     align-items: center;
     justify-content: center;
     padding-bottom: 0;
     box-sizing: border-box;
   }
-  .footer {
+  .footer1 {
     padding: var(--padding-21xl);
     box-sizing: border-box;
   }
 }
 @media screen and (max-width: 960px) {
-  .navigation-menu {
+  .navigation-menu1 {
     display: flex;
   }
-  .col-1 {
+  .col-12 {
     padding: var(--padding-base);
     box-sizing: border-box;
     width: 100%;
   }
-  .img-holder- {
+  .img-holder-2 {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     gap: var(--gap-0);
   }
-  .footer {
+  .footer1 {
     flex-direction: column;
     padding: var(--padding-21xl) var(--padding-5xl) var(--padding-11xl);
     box-sizing: border-box;
   }
 }
 @media screen and (max-width: 420px) {
-  .navigation-menu {
+  .navigation-menu1 {
     flex-direction: row;
     gap: var(--gap-xs);
   }
-  .discover-the-artistry,
-  .unveiling-the-vision {
+  .discover-the-artistry2,
+  .unveiling-the-vision2 {
     font-size: var(--font-size-23xl);
     line-height: 48px;
   }
-  .col-1 {
+  .col-12 {
     width: 100%;
   }
-  .img-holder- {
+  .img-holder-2 {
     margin-top: 20px;
   }
-  .joydeep-mitra-2023-24 {
+  .joydeep-mitra-2023-241 {
     font-size: var(--font-size-23xl);
     line-height: 48px;
   }
-  .footer {
+  .footer1 {
     padding: var(--padding-11xl) var(--padding-5xl);
     box-sizing: border-box;
   }

@@ -16,26 +16,26 @@ body {
   --font-size-39xl: 58px;
 
   /* Colors */
-  --color-white: #fff;
   --color-darkslategray-100: #424242;
   --color-darkslategray-200: #333;
+  --color-white: #fff;
   --color-black: #000;
 
   /* Gaps */
-  --gap-3xs: 10px;
   --gap-xl: 20px;
   --gap-0: 0px;
   --gap-11xl: 30px;
   --gap-xs: 12px;
+  --gap-3xs: 10px;
 
   /* Paddings */
-  --padding-3xs: 10px;
   --padding-65xl: 84px;
   --padding-21xl: 40px;
   --padding-5xl: 24px;
   --padding-11xl: 30px;
   --padding-xl: 20px;
   --padding-base: 16px;
+  --padding-3xs: 10px;
 
   /* border radiuses */
   --br-3xs: 10px;
