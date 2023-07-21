@@ -1,0 +1,324 @@
+.joydeep-mitra {
+  position: relative;
+}
+.uxixdmentorthinker {
+  position: relative;
+  font-size: var(--font-size-base);
+}
+.hero-banner- {
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  min-width: 400px;
+  max-width: 950px;
+  font-size: var(--font-size-39xl);
+  color: var(--color-black);
+}
+.vector-icon {
+  position: relative;
+  width: 16.71px;
+  height: 16px;
+}
+.photography,
+.uxd {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-sf-pro-display);
+  color: var(--color-darkslategray-100);
+  text-align: center;
+  display: inline-block;
+}
+.photography {
+  flex: 1;
+}
+.profile-picture-icon {
+  border-radius: var(--br-19xl);
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+}
+.navigation-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-11xl);
+  min-width: 400px;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkslategray-100);
+}
+.unveiling-the-vision {
+  align-self: stretch;
+  position: relative;
+}
+.title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-3xs) 0;
+  align-items: center;
+  justify-content: flex-start;
+}
+.discover-the-artistry {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+}
+.ipad-pro-2020 {
+  position: absolute;
+  margin: 0 !important;
+  height: calc(100% + 0.15px);
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: -0.15px;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+.hero1 {
+  width: 563px;
+  height: 422px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.col-1,
+.img-holder- {
+  height: 433px;
+  display: flex;
+}
+.col-1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 25%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.img-holder- {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  min-width: 400px;
+}
+.section-card,
+.section-large- {
+  overflow: hidden;
+  display: flex;
+  box-sizing: border-box;
+}
+.section-card {
+  flex: 1;
+  flex-direction: column;
+  padding: 0 var(--padding-xl);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  min-width: 335px;
+  max-width: 1100px;
+}
+.section-large- {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: var(--padding-11xl);
+  align-items: flex-start;
+  justify-content: center;
+  min-width: 350px;
+}
+.search-section {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.apple-watch-ultra {
+  position: absolute;
+  margin: 0 !important;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+.joydeep-mitra-2023-24 {
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+  height: 39.5px;
+  flex-shrink: 0;
+}
+.facebook-icon {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+.facebook-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-xl);
+}
+.yelahanka-bengaluru-karnatak {
+  margin: 0;
+}
+.pixeljoygmailcom2 {
+  text-decoration: underline;
+}
+.pixeljoygmailcom1 {
+  color: inherit;
+}
+.yelahanka-bengaluru-karnatak-container {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 32px;
+  color: inherit;
+  display: inline-block;
+  height: 106px;
+  flex-shrink: 0;
+}
+.footer {
+  flex: 1;
+  height: 226px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-65xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-sf-pro-display);
+}
+.footer-section {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  min-width: 400px;
+}
+.index1,
+.page- {
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-3xs) 0;
+  align-items: center;
+  justify-content: flex-start;
+}
+.page- {
+  align-self: stretch;
+  gap: var(--gap-3xs);
+}
+.index1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-37xl);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-sf-pro-display);
+}
+.index1:hover {
+  background: linear-gradient(#fff, #fff), #87550a;
+}
+@media screen and (max-width: 1200px) {
+  .navigation-menu {
+    gap: var(--gap-11xl);
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0;
+    box-sizing: border-box;
+  }
+  .footer {
+    padding: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 960px) {
+  .navigation-menu {
+    display: flex;
+  }
+  .col-1 {
+    padding: var(--padding-base);
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .img-holder- {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--gap-0);
+  }
+  .footer {
+    flex-direction: column;
+    padding: var(--padding-21xl) var(--padding-5xl) var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 420px) {
+  .navigation-menu {
+    flex-direction: row;
+    gap: var(--gap-xs);
+  }
+  .discover-the-artistry,
+  .unveiling-the-vision {
+    font-size: var(--font-size-23xl);
+    line-height: 48px;
+  }
+  .col-1 {
+    width: 100%;
+  }
+  .img-holder- {
+    margin-top: 20px;
+  }
+  .joydeep-mitra-2023-24 {
+    font-size: var(--font-size-23xl);
+    line-height: 48px;
+  }
+  .footer {
+    padding: var(--padding-11xl) var(--padding-5xl);
+    box-sizing: border-box;
+  }
+  .index1 {
+    width: 100%;
+  }
+  .index1:hover {
+    background-color: #f99a0e;
+  }
+}
