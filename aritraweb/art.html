@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./art.css" />
+
+    <style>
+      @font-face {
+        :font-family: "SF Pro Display";
+        src: url("SFPRODISPLAYREGULAR.OTF");
+        font-weight: 400;
+      }
+      @font-face {
+        :font-family: "SF Pro Display";
+        src: url("SFPRODISPLAYBOLD.OTF");
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="art5">
+      <div class="page-4">
+        <div class="header1-4">
+          <div class="art-by-aritra">Art by Aritra</div>
+          <div class="student-visual-artist4">Student, Visual-Artist</div>
+        </div>
+        <div class="navigation-menu5">
+          <img
+            class="vector-icon5"
+            alt=""
+            src="./public/vector4.svg"
+            id="vectorIcon"
+          />
+
+          <button class="portraiture5" id="portraiture">Portraiture</button>
+          <b class="art6" id="artText">Art</b>
+          <div class="art6" id="popArtText">Pop-Art</div>
+          <button class="portraiture5" id="process">Process</button>
+          <button class="portraiture5" id="game">Game</button>
+          <button class="portraiture5" id="photography">Photography</button>
+          <img
+            class="profile-picture-icon5"
+            alt=""
+            src="./public/top_avatar3@2x.png"
+            id="profilePictureIcon"
+          />
+        </div>
+        <div class="search-section7">
+          <div class="search-section8">
+            <div class="search-container8">
+              <div class="title4">
+                <b class="welcome-to-the"
+                  >Welcome to the captivating world of art, where creativity
+                  knows no bounds and imagination takes flight. Explore my
+                  diverse collection of artworks that reflect my artistic growth
+                  and passion. Immerse yourself in the vibrant colors, intricate
+                  details, and emotive brushstrokes that bring each piece to
+                  life.</b
+                >
+                <div class="unveiling-the-beauty">
+                  Unveiling the Beauty Within: Explorations in Art and Design
+                </div>
+              </div>
+            </div>
+            <div class="cardsection-4">
+              <div class="search-container8">
+                <div class="portform-14">
+                  <button class="col-16">
+                    <img
+                      class="port2-9-icon2"
+                      alt=""
+                      src="./public/port2--255@2x.png"
+                    />
+
+                    <img
+                      class="port2-9-icon2"
+                      alt=""
+                      src="./public/port2--256@2x.png"
+                    />
+
+                    <img
+                      class="port2-9-icon2"
+                      alt=""
+                      src="./public/port2--257@2x.png"
+                    />
+
+                    <img
+                      class="port2-3-icon3"
+                      alt=""
+                      src="./public/port2--14@2x.png"
+                    />
+
+                    <img
+                      class="port2-3-icon3"
+                      alt=""
+                      src="./public/port2--15@2x.png"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="back-section4">
+          <div class="art6" id="backText">Back</div>
+        </div>
+        <div class="footer-section5">
+          <footer class="footer5">
+            <b class="aritra-mitra6">Aritra Mitra © 2023-24</b>
+            <div class="facebook-parent2">
+              <img
+                class="facebook-icon5"
+                alt=""
+                src="./public/facebook@2x.png"
+              />
+
+              <img
+                class="facebook-icon5"
+                alt=""
+                src="./public/googleplus2@2x.png"
+              />
+
+              <img
+                class="facebook-icon5"
+                alt=""
+                src="./public/instagram@2x.png"
+              />
+
+              <img
+                class="facebook-icon5"
+                alt=""
+                src="./public/whatsapp@2x.png"
+              />
+            </div>
+            <div class="yelahanka-bengaluru-karnatak-container5">
+              <p class="yelahanka-bengaluru-karnatak5">
+                <span>Yelahanka, Bengaluru- Karnataka, India. </span>
+              </p>
+              <p class="yelahanka-bengaluru-karnatak5">
+                <a
+                  class="aritramitra49gmailcom16"
+                  href="mailto://aritramitra49@gmail.com"
+                  target="_blank"
+                >
+                  <span>
+                    <span class="aritramitra49gmailcom17"
+                      >aritramitra49@gmail.com</span
+                    >
+                  </span>
+                </a>
+              </p>
+              <p class="yelahanka-bengaluru-karnatak5">
+                <b>+91 62819 65835</b>
+              </p>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var vectorIcon = document.getElementById("vectorIcon");
+      if (vectorIcon) {
+        vectorIcon.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      
+      var portraiture = document.getElementById("portraiture");
+      if (portraiture) {
+        portraiture.addEventListener("click", function (e) {
+          window.location.href = "./portraiture.html";
+        });
+      }
+      
+      var artText = document.getElementById("artText");
+      if (artText) {
+        artText.addEventListener("click", function (e) {
+          window.location.href = "art.html";
+        });
+      }
+      
+      var popArtText = document.getElementById("popArtText");
+      if (popArtText) {
+        popArtText.addEventListener("click", function (e) {
+          window.location.href = "./popart.html";
+        });
+      }
+      
+      var process = document.getElementById("process");
+      if (process) {
+        process.addEventListener("click", function (e) {
+          window.location.href = "./process.html";
+        });
+      }
+      
+      var game = document.getElementById("game");
+      if (game) {
+        game.addEventListener("click", function (e) {
+          window.location.href = "./game.html";
+        });
+      }
+      
+      var photography = document.getElementById("photography");
+      if (photography) {
+        photography.addEventListener("click", function (e) {
+          window.location.href = "./photography.html";
+        });
+      }
+      
+      var profilePictureIcon = document.getElementById("profilePictureIcon");
+      if (profilePictureIcon) {
+        profilePictureIcon.addEventListener("click", function (e) {
+          window.location.href = "./aboutme.html";
+        });
+      }
+      
+      var backText = document.getElementById("backText");
+      if (backText) {
+        backText.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      </script>
+  </body>
+</html>
