@@ -1,0 +1,343 @@
+.game-design-by-aritra {
+  position: relative;
+  line-height: 74px;
+}
+.student-visual-artist1 {
+  position: relative;
+  font-size: var(--font-size-11xl);
+  line-height: 30px;
+  text-align: left;
+}
+.header1-1 {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 var(--padding-xl);
+  align-items: center;
+  justify-content: flex-start;
+}
+.vector-icon2 {
+  position: relative;
+  width: 16.71px;
+  height: 16px;
+  cursor: pointer;
+}
+.portraiture2 {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-sf-pro-display);
+  color: var(--color-darkslategray-100);
+  text-align: left;
+  display: inline-block;
+}
+.art2,
+.portraiture2 {
+  position: relative;
+  cursor: pointer;
+}
+.photography2,
+.pop-art2,
+.process2 {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+}
+.pop-art2 {
+  min-width: 47px;
+}
+.photography2,
+.process2 {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-sf-pro-display);
+  color: var(--color-darkslategray-100);
+  text-align: left;
+}
+.process2 {
+  font-weight: 700;
+}
+.photography2 {
+  flex: 1;
+}
+.profile-picture-icon2 {
+  border-radius: var(--br-19xl);
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.navigation-menu2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-mini);
+  min-width: 400px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkslategray-100);
+}
+.crafting-digital-realms,
+.step-into-the {
+  align-self: stretch;
+  position: relative;
+  line-height: 46px;
+}
+.crafting-digital-realms {
+  font-size: var(--font-size-5xl);
+  line-height: 32px;
+}
+.search-container2,
+.title1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.title1 {
+  align-self: stretch;
+  padding: var(--padding-3xs) 0;
+  gap: var(--gap-xl);
+}
+.search-container2 {
+  width: 100%;
+  padding: var(--padding-11xl) var(--padding-121xl);
+  box-sizing: border-box;
+}
+.port2-18-icon {
+  position: relative;
+  width: 1067px;
+  height: 1200px;
+  object-fit: cover;
+}
+.col-13,
+.portform-11 {
+  display: flex;
+  justify-content: center;
+}
+.col-13 {
+  cursor: pointer;
+  border: 0;
+  padding: 0 var(--padding-base);
+  background-color: transparent;
+  flex: 1;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  gap: var(--gap-31xl);
+  width: 25%;
+}
+.portform-11 {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  flex-direction: row;
+  padding: var(--padding-31xl) var(--padding-xl);
+  align-items: flex-start;
+}
+.cardsection-1,
+.search-section2 {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.cardsection-1 {
+  background-color: var(--color-whitesmoke);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.search-section2 {
+  gap: var(--gap-3xs);
+}
+.back-section1,
+.search-section1,
+.search-section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.search-section1 {
+  align-self: stretch;
+  justify-content: flex-start;
+  font-size: var(--font-size-17xl);
+}
+.back-section1 {
+  width: 530px;
+  height: 165px;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-19xl);
+  color: var(--color-black);
+}
+.aritra-mitra3 {
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+  height: 39.5px;
+  flex-shrink: 0;
+}
+.facebook-icon2 {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+.facebook-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-xl);
+}
+.yelahanka-bengaluru-karnatak2 {
+  margin: 0;
+}
+.aritramitra49gmailcom8 {
+  text-decoration: underline;
+}
+.aritramitra49gmailcom7 {
+  color: inherit;
+}
+.yelahanka-bengaluru-karnatak-container2 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 32px;
+  color: inherit;
+  display: inline-block;
+  height: 106px;
+  flex-shrink: 0;
+}
+.footer2 {
+  align-self: stretch;
+  height: 226px;
+  padding: 0 var(--padding-65xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-sf-pro-display);
+}
+.footer-section2,
+.footer2,
+.game2,
+.page-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.footer-section2 {
+  width: 705px;
+}
+.game2,
+.page-1 {
+  padding: var(--padding-3xs) 0;
+}
+.page-1 {
+  align-self: stretch;
+  gap: var(--gap-3xs);
+}
+.game2 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-39xl);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-sf-pro-display);
+}
+.game2:hover {
+  background: linear-gradient(#fff, #fff), #87550a;
+}
+@media screen and (max-width: 1200px) {
+  .header1-1,
+  .navigation-menu2 {
+    gap: var(--gap-11xl);
+    align-items: center;
+    justify-content: center;
+  }
+  .navigation-menu2 {
+    padding-bottom: 0;
+    box-sizing: border-box;
+  }
+  .footer2 {
+    padding: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 960px) {
+  .header1-1 {
+    flex-direction: column;
+    gap: var(--gap-xl);
+  }
+  .header1-1,
+  .navigation-menu2 {
+    display: flex;
+  }
+  .search-container2 {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .port2-18-icon {
+    width: 95%;
+    height: auto;
+  }
+  .col-13 {
+    padding: var(--padding-base);
+    box-sizing: border-box;
+    width: 100%;
+    flex: unset;
+    align-self: stretch;
+  }
+  .portform-11 {
+    flex-direction: column;
+  }
+  .cardsection-1,
+  .portform-11 {
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--gap-0);
+  }
+  .footer2 {
+    flex-direction: column;
+    padding: var(--padding-21xl) var(--padding-5xl) var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 420px) {
+  .navigation-menu2 {
+    flex-direction: row;
+    gap: var(--gap-xs);
+  }
+  .step-into-the {
+    font-size: var(--font-size-23xl);
+    line-height: 48px;
+  }
+  .col-13 {
+    width: 100%;
+  }
+  .portform-11 {
+    margin-top: 20px;
+  }
+  .aritra-mitra3 {
+    font-size: var(--font-size-5xl);
+    line-height: 48px;
+  }
+  .footer2 {
+    padding: var(--padding-11xl) var(--padding-5xl);
+    box-sizing: border-box;
+  }
+  .game2 {
+    width: 100%;
+  }
+  .game2:hover {
+    background-color: var(--color-orange);
+  }
+}

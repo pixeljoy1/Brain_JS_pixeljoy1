@@ -1,0 +1,341 @@
+.hi-from-aritra {
+  position: relative;
+  line-height: 74px;
+}
+.student-visual-artist6 {
+  position: relative;
+  font-size: var(--font-size-11xl);
+  line-height: 30px;
+  text-align: left;
+}
+.header1-6 {
+  width: 332px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 0 var(--padding-xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.vector-icon7 {
+  position: relative;
+  width: 16.71px;
+  height: 16px;
+  cursor: pointer;
+}
+.portraiture7 {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-sf-pro-display);
+  color: var(--color-darkslategray-100);
+  text-align: left;
+  display: inline-block;
+}
+.art8,
+.photography8,
+.pop-art7,
+.portraiture7 {
+  position: relative;
+  cursor: pointer;
+}
+.photography8,
+.pop-art7 {
+  display: inline-block;
+}
+.pop-art7 {
+  min-width: 47px;
+}
+.photography8 {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  flex: 1;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-sf-pro-display);
+  color: var(--color-darkslategray-100);
+  text-align: left;
+}
+.profile-picture-icon7 {
+  border-radius: var(--br-19xl);
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.navigation-menu7 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-mini);
+  min-width: 400px;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkslategray-100);
+}
+.profile-picture-icon8 {
+  border-radius: 98px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.welcome-to-my1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 46px;
+}
+.about-me {
+  margin: 0;
+}
+.about-me-as-container {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 32px;
+}
+.search-container12,
+.title6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.title6 {
+  align-self: stretch;
+  padding: var(--padding-3xs) 0;
+  gap: var(--gap-11xl);
+}
+.search-container12 {
+  width: 100%;
+  padding: var(--padding-11xl) var(--padding-121xl);
+  box-sizing: border-box;
+}
+.port2-3-icon4 {
+  position: relative;
+  width: 400.13px;
+  height: 450px;
+  object-fit: cover;
+}
+.col-18,
+.portform-16 {
+  display: flex;
+  justify-content: center;
+}
+.col-18 {
+  cursor: pointer;
+  border: 0;
+  padding: 0 var(--padding-base);
+  background-color: transparent;
+  flex: 1;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  width: 25%;
+}
+.portform-16 {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  flex-direction: row;
+  padding: var(--padding-31xl) var(--padding-xl);
+  align-items: flex-start;
+}
+.cardsection-6 {
+  align-self: stretch;
+  background-color: var(--color-whitesmoke);
+  justify-content: flex-start;
+}
+.back-section6,
+.cardsection-6,
+.search-section11 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.search-section11 {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-17xl);
+}
+.back-section6 {
+  width: 530px;
+  height: 165px;
+  justify-content: center;
+  font-size: var(--font-size-19xl);
+  color: var(--color-black);
+}
+.aritra-mitra8 {
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+  height: 39.5px;
+  flex-shrink: 0;
+}
+.facebook-icon7 {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+.facebook-parent4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-xl);
+}
+.aritramitra49gmailcom23 {
+  text-decoration: underline;
+}
+.aritramitra49gmailcom22 {
+  color: inherit;
+}
+.yelahanka-bengaluru-karnatak-container7 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 32px;
+  color: inherit;
+  display: inline-block;
+  height: 106px;
+  flex-shrink: 0;
+}
+.footer7 {
+  align-self: stretch;
+  height: 226px;
+  padding: 0 var(--padding-65xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-sf-pro-display);
+}
+.aboutme,
+.footer-section7,
+.footer7,
+.page-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.footer-section7 {
+  width: 705px;
+}
+.aboutme,
+.page-6 {
+  padding: var(--padding-3xs) 0;
+}
+.page-6 {
+  align-self: stretch;
+  gap: var(--gap-3xs);
+}
+.aboutme {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-39xl);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-sf-pro-display);
+}
+.aboutme:hover {
+  background: linear-gradient(#fff, #fff), #87550a;
+}
+@media screen and (max-width: 1200px) {
+  .header1-6,
+  .navigation-menu7 {
+    gap: var(--gap-11xl);
+    align-items: center;
+    justify-content: center;
+  }
+  .navigation-menu7 {
+    padding-bottom: 0;
+    box-sizing: border-box;
+  }
+  .footer7 {
+    padding: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 960px) {
+  .header1-6 {
+    flex-direction: column;
+    gap: var(--gap-xl);
+  }
+  .header1-6,
+  .navigation-menu7 {
+    display: flex;
+  }
+  .search-container12 {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .port2-3-icon4 {
+    width: 95%;
+    height: auto;
+  }
+  .col-18 {
+    padding: var(--padding-base);
+    box-sizing: border-box;
+    width: 100%;
+    flex: unset;
+    align-self: stretch;
+  }
+  .portform-16 {
+    flex-direction: column;
+  }
+  .cardsection-6,
+  .portform-16 {
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--gap-0);
+  }
+  .footer7 {
+    flex-direction: column;
+    padding: var(--padding-21xl) var(--padding-5xl) var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 420px) {
+  .navigation-menu7 {
+    flex-direction: row;
+    gap: var(--gap-xs);
+  }
+  .welcome-to-my1 {
+    font-size: var(--font-size-23xl);
+    line-height: 48px;
+  }
+  .port2-3-icon4 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
+  }
+  .col-18 {
+    width: 100%;
+  }
+  .portform-16 {
+    margin-top: 20px;
+  }
+  .aritra-mitra8 {
+    font-size: var(--font-size-5xl);
+    line-height: 48px;
+  }
+  .footer7 {
+    padding: var(--padding-11xl) var(--padding-5xl);
+    box-sizing: border-box;
+  }
+  .aboutme {
+    width: 100%;
+  }
+  .aboutme:hover {
+    background-color: var(--color-orange);
+  }
+}
